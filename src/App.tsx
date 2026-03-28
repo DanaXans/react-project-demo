@@ -4,7 +4,7 @@ function App() {
   return (
     <>
       <ul>
-        <li>Hello World</li>
+        <li style={{color:"red"}}>Hello World</li>
       </ul>
     </>
   )
