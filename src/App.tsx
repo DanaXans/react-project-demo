@@ -1,13 +1,11 @@
-import './App.css'
+import {CoursesComponent} from "./components/courses-component/CoursesComponent.tsx";
 
 function App() {
   return (
     <>
-      <ul>
-        <li style={{color:"red"}}>Hello World</li>
-      </ul>
+        <CoursesComponent/>
     </>
   )
 }
 
-export default App
+export default App;
