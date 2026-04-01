@@ -1,13 +1,12 @@
 import './App.css'
+import {FamilyComponent} from "./components/family-component/FamilyComponent.tsx";
 
 function App() {
-  return (
-    <>
-      <ul>
-        <li style={{color:"red"}}>Hello World</li>
-      </ul>
-    </>
-  )
+    return (
+        <>
+            <FamilyComponent/>
+        </>
+    )
 }
 
 export default App
