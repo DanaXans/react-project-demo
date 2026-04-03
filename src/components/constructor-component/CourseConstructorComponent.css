@@ -1,9 +1,13 @@
-body{
+body {
     margin: 0 auto;
+    background: #fff7eb;
+    color: #4c3f3f;
 }
-div{
+
+div {
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
     justify-content: center;
     align-items: center;
     gap: 20px;

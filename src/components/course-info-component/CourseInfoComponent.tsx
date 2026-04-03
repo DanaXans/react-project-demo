@@ -4,23 +4,28 @@ import "./CourseInfoComponent.css"
 
 export type PropsType = {
     course: ICourse;
-}
+};
 
-export const CourseInfoComponent: FC<PropsType> = ({course}) => {
+export const CourseInfoComponent: FC<PropsType> = ({course}: PropsType) => {
     return (
-        <ul className='my-7'>
-            <li className='text-2xl font-bold'>
+        <section className='my-7'>
+            <h3 className='text-2xl font-bold'>
                 {course.title}
-            </li>
-            <li className='text-1xl'>
+            </h3>
+            <p className='text-1xl font-medium'>
                 month duration: {course.monthDuration}
-            </li>
-            <li className='text-1xl' >
+            </p>
+            <p className='text-1xl font-medium'>
                 hour duration: {course.hourDuration}
-            </li>
-            <li className='text-1xl'>
-                modules of course: {course.modules}
-            </li>
-        </ul>
+            </p>
+            <h4 className='font-bold'>Modules:</h4>
+            <ul>
+                {
+                    course.modules.map((module, index) => (
+                        <li key={index}>{module} </li>
+                    ))
+                }
+            </ul>
+        </section>
     );
 };
