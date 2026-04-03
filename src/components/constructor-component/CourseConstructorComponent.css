@@ -1,0 +1,10 @@
+body{
+    margin: 0 auto;
+}
+div{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

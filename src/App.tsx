@@ -1,13 +1,12 @@
 import './App.css'
+import {CourseConstructorComponent} from "./components/constructor-component/CourseConstructorComponent.tsx";
 
 function App() {
-  return (
-    <>
-      <ul>
-        <li style={{color:"red"}}>Hello World</li>
-      </ul>
-    </>
-  )
+    return (
+        <>
+            <CourseConstructorComponent/>
+        </>
+    )
 }
 
 export default App
