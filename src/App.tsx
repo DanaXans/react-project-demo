@@ -1,11 +1,10 @@
 import './App.css'
+import {Todos} from "./components/todos-component/Todos.tsx";
 
 function App() {
   return (
     <>
-      <ul>
-        <li style={{color:"red"}}>Hello World</li>
-      </ul>
+        <Todos/>
     </>
   )
 }
