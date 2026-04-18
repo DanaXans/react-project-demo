@@ -1,7 +1,7 @@
 import type {FC} from "react";
-import type {ProductsItem} from "../../models/CartModel.ts";
+import type {Product} from "../../models/ProductModel.ts";
 
-type PropCart = { cart: ProductsItem };
+type PropCart = { cart: Product };
 export const Cart: FC<PropCart> = ({cart: {title, id, price, thumbnail}}) => {
     return (
         <>

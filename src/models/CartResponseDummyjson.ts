@@ -1,7 +1,7 @@
-import type {CartModel} from "./CartModel.ts";
+import type {CartI} from "./ProductModel.ts";
 
 export interface CartResponseDummyJson {
-    carts: CartModel[],
+    carts: CartI[],
     total: number,
     skip: number,
     limit: number,
