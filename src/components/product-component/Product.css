@@ -1,0 +1,19 @@
+h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+h2{
+    font-size: 23px;
+}
+section{
+    background-color: #eaeaea;
+    width: 45%;
+    padding: 10px;
+}
+.wrapper{
+    background-color: #dadada;
+    font-size: 19px;
+}
+.wrapper p{
+    padding: 7px;
+}
