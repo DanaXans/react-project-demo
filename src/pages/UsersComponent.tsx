@@ -1,14 +1,17 @@
-import {Link} from "react-router/internal/react-server-client";
+import {Link} from "react-router";
 
 export const UsersComponent = () => {
     return (
-        <ul>
-            <li>
-                <Link to="jsonplaceholder">jsonplaceholder</Link>
-            </li>
-            <li>
-                <Link to="dummyjson">dummyjson</Link>
-            </li>
-        </ul>
+
+        <div>
+            <ul>
+                <li>
+                    <Link to="jsonplaceholder">Users Of Jsonplaceholder</Link>
+                </li>
+                <li>
+                    <Link to="dummyjson">Users Of Dummyjson</Link>
+                </li>
+            </ul>
+        </div>
     );
 };

@@ -1,0 +1,48 @@
+.commentCard {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 14px;
+    margin: 10px 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #888;
+}
+
+.commentBody {
+    font-size: 18px;
+    color: #333;
+}
+
+.commentUser {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fafb;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.userName {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.userUsername {
+    font-size: 16px;
+    color: #666;
+}
+
+.commentFooter {
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #eee;
+    padding-top: 6px;
+}

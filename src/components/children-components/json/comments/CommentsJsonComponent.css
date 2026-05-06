@@ -1,0 +1,33 @@
+.commentCard {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.commentHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #888;
+}
+
+.commentName {
+    font-weight: 600;
+    font-size: 16px;
+    color: #222;
+}
+
+.commentEmail {
+    font-size: 14px;
+    color: #666;
+}
+
+.commentBody {
+    font-size: 16px;
+    color: #444;
+}

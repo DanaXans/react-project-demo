@@ -4,10 +4,10 @@ export const PostsComponent = () => {
     return (
         <ul>
             <li>
-                <Link to="jsonplaceholder">jsonplaceholder</Link>
+                <Link to="jsonplaceholder">Posts Of Jsonplaceholder</Link>
             </li>
             <li>
-                <Link to="dummyjson">dummyjson</Link>
+                <Link to="dummyjson">Posts Of Dummyjson</Link>
             </li>
         </ul>
     );

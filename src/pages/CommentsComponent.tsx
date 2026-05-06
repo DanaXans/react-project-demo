@@ -4,7 +4,10 @@ export const CommentsComponent = () => {
     return (
         <ul>
             <li>
-                <Link to="jsonplaceholder">jsonplaceholder</Link>
+                <Link to="jsonplaceholder">Comments Of Jsonplaceholder</Link>
+            </li>
+            <li>
+                <Link to="dummyjson">Comments Of Dummyjson</Link>
             </li>
         </ul>
     );
