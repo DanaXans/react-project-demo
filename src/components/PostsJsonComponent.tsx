@@ -11,7 +11,7 @@ export const PostsJsonComponent = () => {
             .then(postJson => {
                 setPosts(postJson)
             });
-    })
+    },[])
     return (
         <div>
             {

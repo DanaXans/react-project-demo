@@ -11,7 +11,7 @@ export const CommentsJsonComponent = () => {
             .then(commentsJson => {
                 setComments(commentsJson);
             })
-    })
+    },[])
 
     return (
         <div>

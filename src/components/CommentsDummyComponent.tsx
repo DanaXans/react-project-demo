@@ -12,7 +12,7 @@ export const CommentsDummyComponent = () => {
             .then((allDummyComments: ResponseCommentsDummy)=>{
             setComments(allDummyComments.comments)
             })
-    })
+    },[])
     return (
         <div>
             {comments.map((comment) => <CommentDummyComponent comment={comment} key={comment.id}/>)}

@@ -11,7 +11,7 @@ export const PostsDummyComponent = () => {
             .then((allPostsDummy: ResponsePost) => {
                 setPosts(allPostsDummy.posts)
             })
-    })
+    },[])
     return (
         <div>
             {posts.map((post) => <PostDummyComponent key={post.id} post={post} />)}

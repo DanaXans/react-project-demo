@@ -11,7 +11,7 @@ useEffect(() => {
         .then((allUsersDummy: UsersResp) => {
             setUsers(allUsersDummy.users)
         })
-})
+},[])
     return (
 <div>
     {users.map((user) => <UserDummyComponent key={user.id} item={user}/>)}
