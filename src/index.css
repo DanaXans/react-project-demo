@@ -1,1 +1,118 @@
-@import "tailwindcss";
+/*@import "tailwindcss";*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #1f2937;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    gap: 12px;
+    padding: 16px 32px;
+    background: #ffffff;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #374151;
+    font-weight: 500;
+}
+
+nav a.active {
+    background: #4f46e5;
+    color: #ffffff;
+}
+
+main,
+.page {
+    width: min(1100px, 100%);
+    margin: 0 auto;
+    padding: 32px 20px;
+}
+
+h1 {
+    margin: 0 0 24px;
+    font-size: 32px;
+    color: #111827;
+}
+
+h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+    color: #111827;
+}
+
+h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+h4 {
+    margin: 16px 0 8px;
+    color: #4b5563;
+}
+
+p {
+    line-height: 1.5;
+}
+
+section,
+article,
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+}
+
+article {
+    margin-top: 16px;
+    background: #fafafa;
+}
+
+.comment {
+    padding: 12px;
+    margin-top: 10px;
+    border-left: 3px solid #6366f1;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+.comment strong {
+    display: block;
+    margin-bottom: 4px;
+    color: #111827;
+}
+
+.loading,
+.error {
+    width: fit-content;
+    margin: 40px auto;
+    padding: 16px 20px;
+    border-radius: 8px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+}
+
+.error {
+    color: #b91c1c;
+    border-color: #fecaca;
+    background: #fff1f2;
+}
